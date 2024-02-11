@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.pc {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* header */
+.header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.navigation {
+    padding: 18px 0;
+    display: flex;
+    max-width: 653px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navigation a {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #957554;
+    transition: .3s;
+}
+
+.navigation a:hover {
+    transform: translateY(10px);
+    color: black;
+    font-weight: 900;
+    transition: .3s;
+}
+
+/* welcome section */
+.welcome-section {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./Assets/WELCOME\ TO\ BON\ HOTEL.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-section h1 {
+    font-family: Ubuntu;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 92px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+}
+
+.welcome-section h3 {
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 54px;
+}
+
+.welcome-section a {
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    background-color: #DFAA5B;
+    padding: 25px 133px;
+    border-radius: 15px;
+    max-width: max-content;
+    transition: .3s;
+}
+
+.welcome-section a:hover {
+    background-color: white;
+    color: #DFAA5B;
+    transition: .3s;
+}
+
+/* rooms rates */
+.rooms-rates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 155px;
+}
+
+.rooms-rates-title h1 {
+    font-family: Ubuntu;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #957554;
+    margin: 80px 0 47px 0;
+}
+
+.rooms-rates-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+}
+
+.card {
+    width: 630px;
+    height: 500px;
+    left: 60px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards-content {
+    position: relative;
+    max-width: 380px;
+    width: 100%;
+    left: 0%;
+    bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    align-items: center;
+}
+
+.cards-content h1 {
+    font-family: Ubuntu;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.cards-content a {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    background-color: #DFAA5B;
+    padding: 24px 54px;
+    border-radius: 15px;
+}
+
+.card a:hover {
+    background-color: #957554;
+    transition: .3s;
+}
+
+.rooms-rates-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+}
+
+.rooms-rates-btn h1 {
+    font-family: Ubuntu;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #957554;
+    margin-top: 55px;
+}
+
+.rooms-rates-btn a {
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    background-color: #DFAA5B;
+    padding: 24px 157px;
+    border-radius: 15px;
+}
+
+.rooms-rates-btn a:hover {
+    background-color: #957554;
+    transition: .3s;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #111111;
+    padding: 51px 123px 159px 55px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    height: 195px;
+    justify-content: space-between;
+}
+
+.footer-nav a {
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contact h3 {
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.footer-contact a {
+    font-family: Ubuntu;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.footer-contact a:hover {
+    text-decoration: underline;
+    color: white;
+}
